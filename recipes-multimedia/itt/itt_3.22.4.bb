@@ -13,7 +13,7 @@ SRCREV = "0ef7dc3eb99d29dd56a4a51cb4f0076e4a2973e8"
 S = "${WORKDIR}/git"
 PE = "1"
 
-UPSTREAM_CHECK_GITTAGREGEX = "^v(?P<pver>(\d+(\.\d+)+))$"
+#UPSTREAM_CHECK_GITTAGREGEX = "^v(?P<pver>(\d+(\.\d+)+))$"
 
 COMPATIBLE_HOST = '(i.86|x86_64).*-linux'
 
